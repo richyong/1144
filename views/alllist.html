@@ -1,0 +1,27 @@
+
+<searchbar></searchbar>
+<tabtop></tabtop>
+
+<div class="weui-panel weui-panel_access">
+    <div class="weui-panel__bd">
+        <a href="#/details/{{new.id}}" class="weui-media-box weui-media-box_appmsg" ng-repeat="new in news | filter:searchfilter">
+            <div class="weui-media-box__bd">
+                <span class="qinazhui" ng-if="new.top||new.good">{{new.top?'置顶':'精华'}}</span><h4 class="listitle">{{new.title}}</h4>
+                <p class='author' id="author"><span>来自：</span><img ng-src="{{new.author.avatar_url}}" alt=""><span>{{new.author.loginname}}</span></p>
+                <p id="laiyuan"><span>发布于：{{new.create_at | date:'yyyy-MM-dd'}}</span><span class="spanRight2">评论{{new.reply_count}}</span><span class="spanRight1">点击{{new.visit_count}}</span></p>
+            </div>
+            
+                
+            
+        </a>
+        <div class="weui-panel__ft">
+            <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link" ng-click="loadMore()">
+                <div class="weui-cell__bd" ng-if="!loading">查看更多</div>
+                <div class="weui-cell__bd" ng-if="loading">加载中...</div>
+                <span class="weui-cell__ft"></span>
+            </a>    
+        </div>
+    </div>
+    
+</div>
+
