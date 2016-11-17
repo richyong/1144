@@ -1,0 +1,176 @@
+body {
+  font-size: 14px;
+  background-color: #F7F7F7;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  /* IE9*/
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.weui-tab {
+  position: fixed;
+  width: 100%;
+  height: 41px;
+  z-index: 5;
+  top: 44px;
+}
+
+.weui-search-bar__form {
+  margin: 0 7px;
+  border-radius: 8px;
+}
+
+#search_bar {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  top: 0;
+  height: 44px;
+  background-color: #29A1F7;
+}
+
+.weui-navbar .weui-navbar__item {
+  padding: 0;
+}
+.weui-navbar .weui-bar__item_on {
+  background-color: #31BDF9;
+}
+.weui-navbar .weui-bar__item_on a {
+  color: #fff;
+}
+.weui-navbar a {
+  display: block;
+  padding: 9px 0;
+  width: 100%;
+  color: #000;
+  font-size: 14px;
+}
+
+#laiyuan, #author {
+  font-size: 13px;
+  color: #666;
+}
+
+.qinazhui {
+  font-size: 12px;
+  color: #fff;
+  padding: 3px;
+  border-radius: 2px;
+  background-color: #80BD01;
+}
+
+.author {
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+.author img {
+  position: relative;
+  top: 3px;
+  width: 20px;
+}
+
+.listitle {
+  display: inline;
+  padding-bottom: 15px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+.spanRight1, .spanRight2 {
+  float: right;
+}
+
+.spanRight1 {
+  padding-right: 10px;
+}
+
+.weui-panel_access {
+  padding-top: 69px;
+}
+
+.marginBottom {
+  margin-bottom: 62px;
+}
+
+.weui-tabbar {
+  position: fixed;
+}
+
+#itencolor1 i, #itencolor2 i, #itencolor1 p, #itencolor2 p {
+  color: #31BDF9;
+}
+
+.weui-tabbar__item00 i {
+  position: relative;
+  left: -3px;
+}
+
+.weui-panel {
+  margin-bottom: 14px;
+}
+.weui-panel .weui-media-box p {
+  font-size: 15px;
+  color: #000;
+}
+
+.weui-panel__hd00 {
+  background-color: #29A1F7;
+  color: #fff;
+  font-size: 22px;
+}
+
+.weui-cell__bd span {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.weui-panel__hd {
+  padding: 0 15px 0;
+}
+
+#xqheader {
+  width: 100%;
+  position: fixed;
+}
+#xqheader .weui-panel__hd00 {
+  position: relative;
+}
+
+.xiangqing {
+  position: absolute;
+  left: 50%;
+  margin-left: -22px;
+}
+
+#bodycontent {
+  padding: 35px 10px 0;
+}
+
+#xqcontent img {
+  width: 100%;
+}
+#xqcontent code {
+  white-space: pre-wrap;
+}
+
+.loading {
+  position: fixed;
+  z-index: 20;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -27px;
+}
